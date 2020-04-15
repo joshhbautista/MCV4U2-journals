@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.4.8)  14 APR 2020 23:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.4.8)  14 APR 2020 23:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1206,28 +1206,28 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 105.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 104.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 104.
  (c:\Users\jbaut\Desktop\MCV4U2-journals\Application-of-Derivatives-P.2/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 105.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 105.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 104.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 104.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28820 strings out of 480994
- 537896 string characters out of 5916033
+ 28817 strings out of 480994
+ 537858 string characters out of 5916033
  1327415 words of memory out of 5000000
- 43786 multiletter control sequences out of 15000+600000
- 574523 words of font info for 67 fonts, out of 8000000 for 9000
+ 43784 multiletter control sequences out of 15000+600000
+ 571786 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,11n,62p,1041b,2766s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2019/texmf-dist/fonts/type1/urw/avantgar/uagd8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/avantgar/uagk8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on c:\Users\jbaut\Desktop\MCV4U2-journals\Application-of-Derivatives-P.2/main.pdf (4 pages, 64890 bytes).
+{c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2019/texmf-dist/fonts/type1/urw/avantgar/uagd8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/avantgar/uagk8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on c:\Users\jbaut\Desktop\MCV4U2-journals\Application-of-Derivatives-P.2/main.pdf (4 pages, 63531 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
+ 73 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
  10 named destinations out of 1000 (max. 500000)
- 22074 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 21562 words of extra memory for PDF output out of 24883 (max. 10000000)
 
