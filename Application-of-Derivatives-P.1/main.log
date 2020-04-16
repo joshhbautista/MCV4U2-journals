@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.4.8)  14 APR 2020 23:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.4.8)  15 APR 2020 22:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/jbaut/Desktop/MCV4U2-journals/Application-of-Derivatives-P.2/main.tex
-(c:/Users/jbaut/Desktop/MCV4U2-journals/Application-of-Derivatives-P.2/main.tex
+**c:/Users/jbaut/Desktop/MCV4U2-journals/Application-of-Derivatives-P.1/main.tex
+(c:/Users/jbaut/Desktop/MCV4U2-journals/Application-of-Derivatives-P.1/main.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-02-25> (c:/texlive/2019/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
@@ -32,7 +32,7 @@ File: bk12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen135
-) (c:\Users\jbaut\Desktop\MCV4U2-journals\Application-of-Derivatives-P.2/structure.tex (c:/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+) (c:\Users\jbaut\Desktop\MCV4U2-journals\Application-of-Derivatives-P.1/structure.tex (c:/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
  (c:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
@@ -1036,7 +1036,7 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count459
 \@quotereset=\count460
-(c:\Users\jbaut\Desktop\MCV4U2-journals\Application-of-Derivatives-P.2/main.aux)
+(c:\Users\jbaut\Desktop\MCV4U2-journals\Application-of-Derivatives-P.1/main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
@@ -1134,7 +1134,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (c:\Users\jbaut\Desktop\MCV4U2-journals\Application-of-Derivatives-P.2/main.bbl)
+ (c:\Users\jbaut\Desktop\MCV4U2-journals\Application-of-Derivatives-P.1/main.bbl)
 Package biblatex Info: Reference section=0 on input line 56.
 Package biblatex Info: Reference segment=0 on input line 56.
 \AtBeginShipoutBox=\box113
@@ -1167,7 +1167,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <220> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 61.
- (c:\Users\jbaut\Desktop\MCV4U2-journals\Application-of-Derivatives-P.2/main.ptc
+ (c:\Users\jbaut\Desktop\MCV4U2-journals\Application-of-Derivatives-P.1/main.ptc
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <14.4> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <17.28> not available
@@ -1194,7 +1194,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3
 
- <c:/Users/jbaut/Desktop/MCV4U2-journals/Application-of-Derivatives-P.2/Pictures/InequalitiesHeading.png>]
+ <c:/Users/jbaut/Desktop/MCV4U2-journals/Application-of-Derivatives-P.1/Pictures/InequalitiesHeading.png>]
 \tf@ptc=\write6
 \openout6 = `main.ptc'.
 
@@ -1208,7 +1208,7 @@ This may cause the page layout to be inconsistent, however.
 [4]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 104.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 104.
- (c:\Users\jbaut\Desktop\MCV4U2-journals\Application-of-Derivatives-P.2/main.aux)
+ (c:\Users\jbaut\Desktop\MCV4U2-journals\Application-of-Derivatives-P.1/main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 104.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 104.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1224,7 +1224,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  63i,11n,62p,1041b,2766s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2019/texmf-dist/fonts/type1/urw/avantgar/uagd8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/avantgar/uagk8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on c:\Users\jbaut\Desktop\MCV4U2-journals\Application-of-Derivatives-P.2/main.pdf (4 pages, 63531 bytes).
+Output written on c:\Users\jbaut\Desktop\MCV4U2-journals\Application-of-Derivatives-P.1/main.pdf (4 pages, 63656 bytes).
 PDF statistics:
  73 PDF objects out of 1000 (max. 8388607)
  58 compressed objects within 1 object stream
