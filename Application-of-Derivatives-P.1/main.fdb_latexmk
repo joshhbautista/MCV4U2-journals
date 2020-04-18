@@ -1,18 +1,18 @@
 # Fdb version 3
-["biber main"] 1587079983 "main.bcf" "main.bbl" "main" 1587080090
-  "main.bcf" 1587080089 101233 e03c4665881c061f590be5e1560f93de "pdflatex"
+["biber main"] 1587171208 "main.bcf" "main.bbl" "main" 1587173235
+  "main.bcf" 1587173235 101233 e03c4665881c061f590be5e1560f93de "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["makeindex main.idx"] 1587079983 "main.idx" "main.ind" "main" 1587080090
-  "main.idx" 1587080089 126 7c198ac15ddc573f7700e8b842d28ec8 "pdflatex"
+["makeindex main.idx"] 1587171208 "main.idx" "main.ind" "main" 1587173235
+  "main.idx" 1587173235 126 7c198ac15ddc573f7700e8b842d28ec8 "pdflatex"
   (generated)
-  "main.ind"
   "main.ilg"
-["pdflatex"] 1587080087 "c:/Users/jbaut/Desktop/MCV4U2-journals/Application-of-Derivatives-P.1/main.tex" "c:\Users\jbaut\Desktop\MCV4U2-journals\Application-of-Derivatives-P.1/main.pdf" "main" 1587080090
+  "main.ind"
+["pdflatex"] 1587173233 "c:/Users/jbaut/Desktop/MCV4U2-journals/Application-of-Derivatives-P.1/main.tex" "c:\Users\jbaut\Desktop\MCV4U2-journals\Application-of-Derivatives-P.1/main.pdf" "main" 1587173235
   "./Pictures/VelAccelPic.JPG" 1587075162 106765 c805d48f8f0ff83e48528f52ac06ee78 ""
   "Pictures/VelAccelPic.JPG" 1587075162 106765 c805d48f8f0ff83e48528f52ac06ee78 ""
-  "c:/Users/jbaut/Desktop/MCV4U2-journals/Application-of-Derivatives-P.1/main.tex" 1587080087 6610 17174dc7c4c2c005338c4cf42c749897 ""
+  "c:/Users/jbaut/Desktop/MCV4U2-journals/Application-of-Derivatives-P.1/main.tex" 1587173232 7707 4d7cf9bee3f60549f7be3516af3d7ad3 ""
   "c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc" 1586363379 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1586363697 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2019/texmf-dist/fonts/tfm/adobe/avantgar/pagd8r.tfm" 1586362518 4840 6a894dde946186de9a64269f0edd24e5 ""
@@ -233,21 +233,21 @@
   "c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1586366515 4850785 be240f94697c21bedf0eb948641e15bb ""
   "c:/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1586366616 8274592 c695f9061367cbdddf570227a81bd047 ""
   "c:/texlive/2019/texmf.cnf" 1586366492 673 4ae7b2f49cee444c5343a45b5d0f169c ""
-  "c:\Users\jbaut\Desktop\MCV4U2-journals\Application-of-Derivatives-P.1/main.aux" 1587080089 3197 4d220ca9830728429c4686a8b184137c ""
-  "main.aux" 1587080089 3197 4d220ca9830728429c4686a8b184137c "pdflatex"
-  "main.bbl" 1587079985 486 f7f239c736cf01ac6ce7bd829f9b3c7b "biber main"
-  "main.ind" 1587079983 183 e3a001e3e36175549e03b901ab6083fc "makeindex main.idx"
-  "main.ptc" 1587080089 786 29e22f6b0f1f0696d98799c5b7acd2f6 "pdflatex"
-  "main.run.xml" 1587080089 2307 fa280d158a7733084a6a66e2106e4193 "pdflatex"
-  "main.tex" 1587080087 6610 17174dc7c4c2c005338c4cf42c749897 ""
+  "c:\Users\jbaut\Desktop\MCV4U2-journals\Application-of-Derivatives-P.1/main.aux" 1587173235 3197 3a00aa2c722de8cbdf1fafa1ae26daaa ""
+  "main.aux" 1587173235 3197 3a00aa2c722de8cbdf1fafa1ae26daaa "pdflatex"
+  "main.bbl" 1587171210 486 f7f239c736cf01ac6ce7bd829f9b3c7b "biber main"
+  "main.ind" 1587171208 183 e3a001e3e36175549e03b901ab6083fc "makeindex main.idx"
+  "main.ptc" 1587173235 786 29e22f6b0f1f0696d98799c5b7acd2f6 "pdflatex"
+  "main.run.xml" 1587173235 2307 fa280d158a7733084a6a66e2106e4193 "pdflatex"
+  "main.tex" 1587173232 7707 4d7cf9bee3f60549f7be3516af3d7ad3 ""
   "structure.tex" 1586373372 22036 4360a71368c86e0e605e15ed3bab42f6 ""
   (generated)
-  "main.idx"
-  "main.bcf"
   "main.aux"
-  "c:\Users\jbaut\Desktop\MCV4U2-journals\Application-of-Derivatives-P.1/main.pdf"
-  "main.pdf"
-  "main.log"
   "c:\Users\jbaut\Desktop\MCV4U2-journals\Application-of-Derivatives-P.1/main.log"
-  "main.run.xml"
   "main.ptc"
+  "main.run.xml"
+  "main.idx"
+  "c:\Users\jbaut\Desktop\MCV4U2-journals\Application-of-Derivatives-P.1/main.pdf"
+  "main.bcf"
+  "main.log"
+  "main.pdf"
