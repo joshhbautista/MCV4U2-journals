@@ -70,12 +70,16 @@
 
 \chapter{Application of Derivatives Part One}
 
+\vspace*{-50mm}
+
 \section{Sketching}\index{Sketching}
 
-It is important to sketch out the function in the question to reveal all of its qualities (increasing/decreasing intervals, concave up/down, inflection points, etc).
-There is an algorithm to determine all of the details of the graph.
+\vspace*{-70mm}
 
-\vspace*{3mm}
+It is important to sketch out the function in the question to reveal all of its characteristics (increasing/decreasing intervals, concave up/down, inflection points, etc).
+There is an algorithm to help sketch a graph given its function/equation:
+
+\vspace*{-35mm}
 
 \begin{enumerate}
     \item From the original graph:
@@ -108,7 +112,7 @@ There is an algorithm to determine all of the details of the graph.
 
 \pagebreak
 
-\noindent {\large \textbf{Example 1:}}
+\noindent {\large \textbf{Example}}
 
 \vspace*{2mm}
 
@@ -435,9 +439,9 @@ When looking at displacement, velocity, acceleration, and jerk graphs, there are
 
     \begin{enumerate}[label=(\alph*)]
         \item The object's velocity is constantly decreasing.
-        \item The object's velocity \textbf{drastically} goes from decreasing to increasing by a large number gradually.
+        \item The object's velocity \textbf{instantly} goes from decreasing to increasing by a large number constantly.
         \item The object's velocity is increasing at a constant rate.
-        \item The object's velocity \textbf{drastically} goes from increasing to decreasing by a large number gradually.
+        \item The object's velocity \textbf{instantly} goes from increasing to decreasing by a large number constantly.
         \item The object's velocity is decreasing at a constant rate.
     \end{enumerate}
 
@@ -468,12 +472,13 @@ When looking at displacement, velocity, acceleration, and jerk graphs, there are
 \begin{multicols}{2}
     \includegraphics[scale=0.7]{velocity.jpg} \\
     (zeros become t.p and t.p become inflection pt) \\
+    \vspace*{-4mm}
     \begin{center}
         \includegraphics[scale=0.05]{vel-accel.jpg}
         \begin{enumerate}[label=(\alph*)]
-            \item Constant negative acceleration (decreasing velocity).
-            \item Constant positive acceleration (increasing velocity).
-            \item Larger constant positive acceleration.
+            \item Constant negative acceleration directed to the left (decreasing velocity).
+            \item Constant positive acceleration directed to the right (increasing velocity).
+            \item Larger constant positive acceleration directed to the right.
             \item 0 acceleration (constant velocity).
         \end{enumerate}
 
@@ -486,10 +491,10 @@ When looking at displacement, velocity, acceleration, and jerk graphs, there are
         \vspace*{3mm}
         \includegraphics[scale=0.05]{vel-displace.jpg}
         \begin{enumerate}[label=(\alph*)]
-            \item NOTE: We do not know where the object starts. The object first moves away from the origin, then switches direction and moves toward the origin speeding up.
+            \item NOTE: We do not know where the object starts. The object first moves away (right) from the origin, then switches direction and moves toward (left) the origin speeding up.
             \item The object slows down, still moving away from the origin, until it switches direction once again.
-            \item Object speeds up while moving away from the origin.
-            \item Object is moving at a constant rate away from the origin.
+            \item Object speeds up while moving toward (right) the origin.
+            \item Object is moving at a constant rate away (right) from the origin.
         \end{enumerate}
 
     \end{center}
@@ -503,11 +508,11 @@ When looking at displacement, velocity, acceleration, and jerk graphs, there are
 
         \includegraphics[scale=0.05]{accel-vel.jpg}
         \begin{enumerate}[label=(\alph*)]
-            \item Object is speeding up at a constant acceleration going away from the origin (negative acceleration).
-            \item Object speeds up very quickly, now at a positive acceleration.
-            \item Object is speeding up at a constant acceleration going towards the origin (positive acceleration).
-            \item Objects slows down very quickly, now at a negative acceleration.
-            \item Object is speeding up at a constant acceleration going away from the origin (negative acceleration).
+            \item Object is speeding up at a constant acceleration going away (left) from the origin (negative acceleration).
+            \item Object speeds up instantly, now at a positive acceleration.
+            \item Object is speeding up at a constant acceleration going toward the origin (positive acceleration). It passes origin (in this case) and continues  will constant velocity away (right) from the origin.
+            \item Objects slows down instantly, now at a negative acceleration.
+            \item Object is speeding up at a constant acceleration going away (left) from the origin (negative acceleration).
         \end{enumerate}
 
     \end{center}
@@ -518,7 +523,7 @@ When looking at displacement, velocity, acceleration, and jerk graphs, there are
     \begin{center}
         \vspace*{10mm}
         \includegraphics[scale=0.05]{accel-jerk.jpg} \\
-        The derivative or 'rate of change' of acceleration in this case are all constant 0 (no slope in original acceleration graph), except the points where the acceleration drastically/instantly increases/decreases.
+        The derivative or 'rate of change' of acceleration in this case are all constant 0 (no slope in original acceleration graph), except the points where the acceleration instantly increases/decreases.
 
     \end{center}
 \end{multicols}
@@ -529,7 +534,7 @@ When looking at displacement, velocity, acceleration, and jerk graphs, there are
 
 \section{Other Applications}\index{Operations with Inequalities}
 
-\includegraphics[scale=0.75]{apply1.jpg}
+\includegraphics[scale=0.85]{apply1.jpg}
 
 \noindent \textbf{a)} \\
 We are given a function that gives the height of the ball after $t$ seconds. To get velocity, we must get the \textbf{slope/derivative} at 2 seconds. Let's get the derivative of the given function:
@@ -549,7 +554,7 @@ We are given a function that gives the height of the ball after $t$ seconds. To 
 \end{center}
 
 \noindent \textbf{b)} \\
-At its heighest point, the derivative will be equal to $0$. We can set the derivative function equal to 0 and find at what second it is 0.
+At its highest point, the derivative will be equal to $0$. We can set the derivative function equal to 0 and find at what second it is 0.
 
 \begin{center}
     {\large $-9.8t+10 =0$} \\
@@ -583,14 +588,27 @@ When the ball is on the ground, its height will be equal to 0. We can set the or
 
 \pagebreak
 
-\includegraphics[scale=0.75]{apply2.jpg}
+\includegraphics[scale=0.85]{apply2.jpg}
 
 \noindent \textbf{a)} \\
-We a
+The derivative is also the slope, the units you get when calculating the slope is $\frac{P}{n}$.
 
 \begin{center}
-    {\large $y=f(t)=-4.9t^2+10t$} \\
-    {\large $f'(t)=-9.8t + 10$}
+    {\large $\frac{\Delta P}{\Delta n} = \frac{items completed}{person}$}
 \end{center}
+
+\noindent \textbf{b)} \\
+$\frac{\Delta P}{\Delta n}$ refers to the number of items completed as the number of people working on the job changes.
+
+\vspace*{3mm}
+
+\noindent \textbf{c)} \\
+Using logic, we can say that more items should be completed as the number of people working on the job increase. $\therefore \frac{\Delta P}{\Delta n} > 0$
+
+\vspace*{3mm}
+
+\noindent \textbf{d)} \\
+Given $\frac{\Delta P}{\Delta n} = 300$ when $n=6$, we can say that adding one more person working on the job when there are already 6 people working, will increase the number of items completed by 300.
+
 
 \end{document}
