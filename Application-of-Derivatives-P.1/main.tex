@@ -469,9 +469,12 @@ When looking at displacement, velocity, acceleration, and jerk graphs, there are
     \includegraphics[scale=0.7]{velocity.jpg} \\
     (zeros become t.p and t.p become inflection pt) \\
     \begin{center}
-        \includegraphics[scale=0.05]{vel-displace.jpg}
+        \includegraphics[scale=0.05]{vel-accel.jpg}
         \begin{enumerate}[label=(\alph*)]
-            \item NOTE: We do not know where the object starts. The object first moves away from the origin, then switches direction and moves toward the origin speeding up.
+            \item Constant negative acceleration (decreasing velocity).
+            \item Constant positive acceleration (increasing velocity).
+            \item Larger constant positive acceleration.
+            \item 0 acceleration (constant velocity).
         \end{enumerate}
 
     \end{center}
@@ -480,6 +483,7 @@ When looking at displacement, velocity, acceleration, and jerk graphs, there are
     \hspace*{-20mm}
 
     \begin{center}
+        \vspace*{3mm}
         \includegraphics[scale=0.05]{vel-displace.jpg}
         \begin{enumerate}[label=(\alph*)]
             \item NOTE: We do not know where the object starts. The object first moves away from the origin, then switches direction and moves toward the origin speeding up.
@@ -489,19 +493,42 @@ When looking at displacement, velocity, acceleration, and jerk graphs, there are
         \end{enumerate}
 
     \end{center}
-
-
 \end{multicols}
 
 \pagebreak
 
 \begin{multicols}{2}
-    \includegraphics[scale=0.7]{acceleration.jpg}
+   \includegraphics[scale=0.7]{acceleration.jpg} \\
+    (zeros become t.p and t.p become inflection pt) \\
+    \begin{center}
+        
+        \includegraphics[scale=0.05]{accel-vel.jpg}
+        \begin{enumerate}[label=(\alph*)]
+            \item Constant negative acceleration (decreasing velocity).
+            \item Constant positive acceleration (increasing velocity).
+            \item Larger constant positive acceleration.
+            \item 0 acceleration (constant velocity).
+        \end{enumerate}
+
+    \end{center}
     \columnbreak
 
-    \includegraphics[scale=0.05]{accel-vel.jpg}
-    \includegraphics[scale=0.05]{accel-jerk.jpg}
+    \hspace*{-20mm}
+
+    \begin{center}
+        \vspace*{3mm}
+        \includegraphics[scale=0.05]{accel-jerk.jpg}
+        \begin{enumerate}[label=(\alph*)]
+            \item NOTE: We do not know where the object starts. The object first moves away from the origin, then switches direction and moves toward the origin speeding up.
+            \item The object slows down, still moving away from the origin, until it switches direction once again.
+            \item Object speeds up while moving away from the origin.
+            \item Object is moving at a constant rate away from the origin.
+        \end{enumerate}
+
+    \end{center}
 \end{multicols}
+
+\pagebreak
 
 %----------------------------------------------------------------------------------------
 
