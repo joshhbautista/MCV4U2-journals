@@ -518,7 +518,7 @@ When looking at displacement, velocity, acceleration, and jerk graphs, there are
     \begin{center}
         \vspace*{10mm}
         \includegraphics[scale=0.05]{accel-jerk.jpg} \\
-        The derivative or 'rate of change' of acceleration in this case are all constant 0 (no slope in original acceleration graph), except where the acceleration drastically increases/decreases.
+        The derivative or 'rate of change' of acceleration in this case are all constant 0 (no slope in original acceleration graph), except the points where the acceleration drastically/instantly increases/decreases.
 
     \end{center}
 \end{multicols}
@@ -529,16 +529,68 @@ When looking at displacement, velocity, acceleration, and jerk graphs, there are
 
 \section{Other Applications}\index{Operations with Inequalities}
 
-\begin{center}
+\includegraphics[scale=0.75]{apply1.jpg}
 
+\noindent \textbf{a)} \\
+We are given a function that gives the height of the ball after $t$ seconds. To get velocity, we must get the \textbf{slope/derivative} at 2 seconds. Let's get the derivative of the given function:
+
+\begin{center}
+    {\large $y=f(t)=-4.9t^2+10t$} \\
+    {\large $f'(t)=-9.8t + 10$}
 \end{center}
 
-\vspace*{-3mm}
+\noindent Plug-in 2 seconds into the derivative.
+
+\begin{center}
+    {\large $f'(2)=-9.8(2)+10$} \\
+    {\large $=-19.6+10$} \\
+    {\large $=-9.6$} \\
+    $\therefore$ velocity $-9.6\frac{m}{s}$ at 2 seconds.
+\end{center}
+
+\noindent \textbf{b)} \\
+At its heighest point, the derivative will be equal to $0$. We can set the derivative function equal to 0 and find at what second it is 0.
+
+\begin{center}
+    {\large $-9.8t+10 =0$} \\
+    {\large $-9.8t=-10$} \\
+    {\large $t=\frac{10}{9.8}$} \\
+    {\large $t=1.020408163$} \\
+    $\therefore$ at 1.02 seconds the ball is at highest point
+\end{center}
+
+\noindent \textbf{c)} \\
+When the ball is on the ground, its height will be equal to 0. We can set the original function equal to 0 and solve for $t$.
+
+\begin{center}
+    {\large $-4.9t^2+10t=0$} \\
+    \vspace*{1mm}
+    {\large $t=\frac{-10\pm\sqrt{10^2-4(-4.9)(0)}}{2(-4.9)}$} \\
+    \vspace*{1mm}
+    {\large $t=\frac{-10\pm\sqrt{100}}{-9.8}$}
+    \begin{multicols}{2}
+        {\large $t=\frac{-20}{-9.8}$} \\
+        $t=2.04081$
+
+        \columnbreak
+
+        {\large $t=\frac{0}{-9.8}$} \\
+        $t=0$
+    \end{multicols}
+\end{center}
+
+\noindent $\therefore$ The ball will be back on the ground at 2.04 seconds.
 
 \pagebreak
 
-\begin{center}
+\includegraphics[scale=0.75]{apply2.jpg}
 
+\noindent \textbf{a)} \\
+We a
+
+\begin{center}
+    {\large $y=f(t)=-4.9t^2+10t$} \\
+    {\large $f'(t)=-9.8t + 10$}
 \end{center}
 
 \end{document}

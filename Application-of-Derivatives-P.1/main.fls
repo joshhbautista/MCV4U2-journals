@@ -512,6 +512,12 @@ INPUT ./Pictures/accel-vel.jpg
 INPUT c:\Users\jbaut\Desktop\MCV4U2-journals\Application-of-Derivatives-P.1/./Pictures/accel-jerk.jpg
 INPUT ./Pictures/accel-jerk.jpg
 INPUT ./Pictures/accel-jerk.jpg
+INPUT c:\Users\jbaut\Desktop\MCV4U2-journals\Application-of-Derivatives-P.1/./Pictures/apply1.jpg
+INPUT ./Pictures/apply1.JPG
+INPUT ./Pictures/apply1.JPG
+INPUT c:\Users\jbaut\Desktop\MCV4U2-journals\Application-of-Derivatives-P.1/./Pictures/apply2.jpg
+INPUT ./Pictures/apply2.JPG
+INPUT ./Pictures/apply2.JPG
 OUTPUT c:\Users\jbaut\Desktop\MCV4U2-journals\Application-of-Derivatives-P.1/main.ptc
 INPUT c:\Users\jbaut\Desktop\MCV4U2-journals\Application-of-Derivatives-P.1/main.aux
 INPUT c:\Users\jbaut\Desktop\MCV4U2-journals\Application-of-Derivatives-P.1/main.run.xml
