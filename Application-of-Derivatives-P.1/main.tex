@@ -66,9 +66,9 @@
 
 \chapterimage{VelAccelPic.JPG} % Chapter heading image
 
-\chapter{Application of Derivatives Part One}
+\pagebreak
 
-\vspace*{-20mm}
+\chapter{Application of Derivatives Part One}
 
 \section{Sketching}\index{Sketching}
 
@@ -110,11 +110,11 @@ There is an algorithm to determine all of the details of the graph.
 
 \noindent {\large \textbf{Example 1:}}
 
-\vspace*{3mm}
+\vspace*{2mm}
 
-\noindent Sketch and label all intercepts, asymtotes, crticial points and inflection points. Show all justifying steps.
+\noindent \emph{Sketch and label all intercepts, asymtotes, crticial points and inflection points. Show all justifying steps}.
 
-\vspace*{3mm}
+\vspace*{2mm}
 
 {\large $y=(x^\frac{1}{3})(x-4)$}
 
@@ -188,25 +188,98 @@ There is an algorithm to determine all of the details of the graph.
 
 \noindent \textbf{3.} Find possible inflection points: Find $y''$ and find when it is equal to 0 or DNE.
 
-\vspace*{-6mm}
+\vspace*{-2mm}
 
 \begin{center}
     $y' = x^\frac{1}{3} + \frac{1}{3}(x)^\frac{-2}{3}(x-4)$ \\
     \vspace*{2mm}
-    $y'' = \frac{1}{3}(x)^\frac{-2}{3} + \frac{1}{3}[(x)^\frac{-2}{3}(1)+(x-4)(\frac{-2}{3}(x)^\frac{-5}{3})]$ \\
+    $y'' = \frac{1}{3}(x)^\frac{-2}{3} + [\frac{-2}{9}(x)^\frac{-5}{3}(x-4)+(\frac{1}{3}(x)^\frac{-2}{3})(1)]$ \\
     \vspace*{1mm}
-    $= \frac{1}{3}(x)^\frac{-5}{3}[(x) + (x) + (x-4)(\frac{-2}{3})]$ \\
+    {\large $= \frac{1}{3x^\frac{2}{3}}+ (\frac{-2(x-4)}{9x^\frac{5}{3}}+\frac{1}{3x^\frac{2}{3}})$} \\
     \vspace*{1mm}
-    $=$
+    {\large $= \frac{3x}{9x^\frac{5}{3}} + (\frac{-2x+8 + 3x}{9x^\frac{5}{3}})$} \\
+    \vspace*{1mm}
+    {\large $= \frac{4(x+2)}{9x^\frac{5}{3}}$}
 \end{center}
+
+\begin{multicols}{2}
+    \begin{center}
+        $0= \frac{4(x+2)}{9x^\frac{5}{3}}$ \\
+        \vspace*{1mm}
+        $0 = 4(x+2)$ \\
+        \vspace*{1mm}
+        $\therefore$ possible inflection pt. $x = -2$
+        \columnbreak
+
+        DNE when denominator = 0 \\
+        \vspace*{1mm}
+        $0 = 9x^\frac{5}{3}$ \\
+        \vspace*{1mm}
+        $\therefore$ possible inflection pt. $x = 0$
+    \end{center}
+\end{multicols}
+
+\pagebreak
+
+\noindent \textbf{3.} Find concave up/down intervals: Make a $y''$ sign chart.
+
+\begin{center}
+    \begin{table}[h]
+        \centering
+        \begin{tabular}{l l l l l l}
+            \toprule
+            \textbf{}        & \textbf{$x<-2$\hspace{3mm}|} & \textbf{$-2<x<0$\hspace{5mm}|} & \textbf{$x>0$\hspace{5mm}|} \\
+            \midrule
+            $4(x+2)$         & \hspace{5mm}$-$              & \hspace{10mm}$+$               & \hspace{5mm}$+$             \\
+            $9x^\frac{5}{3}$ & \hspace{5mm}$-$              & \hspace{10mm}$-$               & \hspace{5mm}$+$             \\
+            $y''$            & \hspace{5mm}$+$              & \hspace{10mm}$-$               & \hspace{5mm}$+$             \\
+            $y$              & \hspace{5mm}CU               & \hspace{10mm}CD                & \hspace{5mm}CU              \\
+            \bottomrule
+        \end{tabular}
+    \end{table}
+\end{center}
+
+\noindent When looking at a sign chart like this, you should look at where the function goes from \textbf{concave up} to \textbf{concave down}. Remember,
+a \textbf{positive interval} in the second derivative means it is concave up. A \textbf{negative interval} means it is concave down. There is a CU/CD switch at
+$x=-2$ and $x=0$. These are your \textbf{inflection points.} \\
+
+\noindent \textbf{3.} Classify your critical points using the 2nd derivative test.
+
+\begin{multicols}{3}
+    \begin{center}
+        \underline{$x=-2$} \\
+        \vspace*{1mm}
+        $y''(-2)=0$ \\
+        $\therefore (-2, 7.56)$ \textbf{inflection pt}.
+        \columnbreak
+
+        \underline{$x=0$} \\
+        \vspace*{1mm}
+        $y''(0)=$ DNE, inflection pt. \\
+        $\therefore (0, 0)$ is a \textbf{V.T}
+        \columnbreak
+
+        \underline{$x=1$} \\
+        \vspace*{1mm}
+        $y''(1)=\frac{4}{3}$ \\
+        CU and $y'(1)=0$ \\
+        $\therefore (1, -3)$ \textbf{local min T.P}
+    \end{center}
+\end{multicols}
+
+\noindent Keep track of all of the classified points (intercepts, critical points, etc) and sketch!
+
+\begin{center}
+    \includegraphics[scale=0.15]{Example1Pic.jpg}
+\end{center}
+
+\pagebreak
 
 %----------------------------------------------------------------------------------------
 
 \section{Velocity and Acceleration}\index{Notation}
 
-\includegraphics[scale=0.4]{VelAccelPic.JPG}
-
-\noindent Before we start doing problems involving velocity and acceleration, we must make sure we know these key definitions:
+\noindent Before we start solving problems involving velocity and acceleration, we must make sure we know these key definitions:
 
 \vspace*{2mm}
 
@@ -221,7 +294,7 @@ Displacement is the \textbf{change in position} of an object. It is concerned wi
 \vspace*{2mm}
 
 \noindent{\large\textbf{Velocity}} \\
-Velocity is speed over time.
+Velocity is concerned with how fast or slow an objects moves as time changes. It is the derivative of $s(t)$.
 
 \begin{center}
     {\large $Velocity = v(t) = \frac{ds}{dt} = \frac{\Delta s}{\Delta t}$}
@@ -231,7 +304,7 @@ Velocity is speed over time.
 \vspace*{2mm}
 
 \noindent{\large\textbf{Acceleration}} \\
-Acceleration is concerned
+Acceleration describes how an object is speeding up or speeding down as time changes. It is the derivative of $v(t)$. (also 2nd derivative of $s(t)$)
 
 \begin{center}
     negative acceleration $\to$ decreasing velocity. \\
@@ -245,15 +318,142 @@ Acceleration is concerned
 
 \vspace*{2mm}
 
-\noindent{\large\textbf{Jerk/Turbulence:}} \\
+\noindent{\large\textbf{Jerk/Turbulence}} \\
+Jerk/Turbulence is the derivative of $a(t)$.
 
 \begin{center}
     {\large $Jerk/Turbulence = j(t) = \frac{da}{dt} = \frac{d^2v}{dt^2} = \frac{d^3s}{dt^3}$}
 \end{center}
 
+\vspace*{2mm}
+
+\begin{center}
+    The relationship between displacement, velocity, and acceleration: \\
+    \vspace*{2mm}
+    {\large $s''(t) = v'(t) = a(t)$}
+\end{center}
+
+\noindent{\large\textbf{Graphs}} \\
+When looking at displacement, velocity, acceleration, and jerk graphs, there are important things to note.
 
 \vspace*{2mm}
 
+\includegraphics[scale=0.4]{VelAccelPic.JPG}
+
+\pagebreak
+
+\begin{multicols}{2}
+    \includegraphics[scale=0.2]{displacementpng.png}
+    \columnbreak
+
+    \indent When looking at a displacement-time
+    \indent graph, it is important to note that the
+    \hspace*{5.25mm} y-values represent the displacement from
+    \indent a \textbf{reference point}. The reference point
+    \indent is when $time=0$. Positive displacement
+    \indent means the object is north or right of the
+    \indent reference point.
+
+    \vspace*{3mm}
+
+    \indent To look at velocity, you must take the
+    \indent \textbf{slope/derivative} ($\frac{m}{s}$).
+\end{multicols}
+
+\begin{multicols}{2}
+    \includegraphics[scale=0.8]{velocity.jpg}
+    \columnbreak
+
+    \indent When looking at velocity-time graphs,
+    \indent the y-values strictly represent the
+    \indent object's speed. A $0$ does \textbf{not} mean the
+    \indent object is at the origin. A positive velocity
+    \indent means the object is moving north, and
+    \indent vice-versa. Whenever the graph crosses
+    \indent the x-axis, this means it has changed
+    \indent directions.
+
+    \vspace*{3mm}
+
+    \indent To look at acceleration, simply take
+    \indent the \textbf{slope/derivative} ($\frac{m}{s^2}$).
+\end{multicols}
+
+\begin{multicols}{2}
+    \includegraphics[scale=0.7]{acceleration.jpg}
+    \columnbreak
+
+    \indent When looking at acceleration-time
+    \indent graphs, it is key to remember that it is
+    \hspace*{2.4mm} the 'rate of change of the rate of change
+    \indent of displacement'. So you can visualize
+    \indent it as how is the velocity changing as time
+    \indent changes.
+
+    \vspace*{3mm}
+
+    \indent Jerk/Turbulence is \textbf{slope/derivative} of
+    \indent acceleration.
+    \indent
+\end{multicols}
+
+\pagebreak
+
+\noindent {\large \textbf{Examples Given Graph: 'What is happening?'}}
+
+\begin{multicols}{2}
+    \includegraphics[scale=0.23]{displacementpng.png}
+    \columnbreak
+
+    \begin{enumerate}[label=(\alph*)]
+        \item The object is moving \textbf{south/left} (away) from the origin (it is becoming negative).
+        \item The object is moving back towards the origin (reference point). It goes back to the origin (it crosses the x-axis). It then moves
+              \textbf{north/right} from the origin (it is becoming positive).
+        \item The object stays \textbf{still/not moving} (constant at +4m).
+        \item The object moves back towards the origin and is at the origin again (crosses x-axis).
+    \end{enumerate}
+
+\end{multicols}
+
+\begin{multicols}{2}
+    \includegraphics[scale=0.8]{velocity.jpg}
+    \columnbreak
+
+    \begin{enumerate}[label=(\alph*)]
+        \item The object is slowing down going right until it switches direction (crosses x-axis). After switching,
+              the object speeds up going left.
+        \item The object starts slowing down going left, until it switches direction again. After switching, it speeds up going right.
+        \item The object speeds up going right.
+        \item The object stays at a constant speed (zero slope) going right.
+    \end{enumerate}
+
+\end{multicols}
+
+\begin{multicols}{2}
+    \includegraphics[scale=0.8]{acceleration.jpg}
+    \columnbreak
+
+    \begin{enumerate}[label=(\alph*)]
+        \item The object's velocity is constantly decreasing.
+        \item The object's velocity \textbf{drastically} goes from decreasing to increasing by a large number gradually.
+        \item The object's velocity is increasing at a constant rate.
+        \item The object's velocity \textbf{drastically} goes from increasing to decreasing by a large number gradually.
+        \item The object's velocity is decreasing at a constant rate.
+    \end{enumerate}
+
+\end{multicols}
+
+\pagebreak
+
+\noindent {\large \textbf{Sketching the Derivative/Anti-Derivative Graphs}}
+
+\begin{multicols}{2}
+    \includegraphics[scale=0.23]{displacementpng.png}
+    \columnbreak
+
+    
+
+\end{multicols}
 
 %----------------------------------------------------------------------------------------
 

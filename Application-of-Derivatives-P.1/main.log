@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.4.8)  18 APR 2020 23:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.4.8)  19 APR 2020 21:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1185,10 +1185,10 @@ Chapter 1.
 <./Pictures/VelAccelPic.JPG, id=31, 1062.21844pt x 429.10312pt>
 File: ./Pictures/VelAccelPic.JPG Graphic file (type jpg)
 <use ./Pictures/VelAccelPic.JPG>
-Package pdftex.def Info: ./Pictures/VelAccelPic.JPG  used on input line 69.
+Package pdftex.def Info: ./Pictures/VelAccelPic.JPG  used on input line 71.
 (pdftex.def)             Requested size: 597.50787pt x 241.37645pt.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <24.88> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 69.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 71.
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 83.
 (c:/texlive/2019/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
@@ -1244,14 +1244,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 123--124
 
  []
 
-File: ./Pictures/VelAccelPic.JPG Graphic file (type jpg)
-<use ./Pictures/VelAccelPic.JPG>
-Package pdftex.def Info: ./Pictures/VelAccelPic.JPG  used on input line 207.
-(pdftex.def)             Requested size: 424.87985pt x 171.6382pt.
-
-Underfull \vbox (badness 2671) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
 Make it at least 14.49998pt.
@@ -1259,37 +1251,115 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 248--249
+Underfull \hbox (badness 10000) in paragraph at lines 242--245
 
  []
 
-[5]
+<./Pictures/Example1Pic.jpg, id=51, 1976.38374pt x 1795.70876pt>
+File: ./Pictures/Example1Pic.jpg Graphic file (type jpg)
+<use ./Pictures/Example1Pic.jpg>
+Package pdftex.def Info: ./Pictures/Example1Pic.jpg  used on input line 273.
+(pdftex.def)             Requested size: 296.44476pt x 269.3447pt.
+[5 <./Pictures/Example1Pic.jpg>]
+File: ./Pictures/VelAccelPic.JPG Graphic file (type jpg)
+<use ./Pictures/VelAccelPic.JPG>
+Package pdftex.def Info: ./Pictures/VelAccelPic.JPG  used on input line 341.
+(pdftex.def)             Requested size: 424.87985pt x 171.6382pt.
+
+Overfull \hbox (15.71332pt too wide) in paragraph at lines 341--342
+[][] 
+ []
+
+[6]
+<./Pictures/displacementpng.png, id=60, 867.24pt x 648.17157pt>
+File: ./Pictures/displacementpng.png Graphic file (type png)
+<use ./Pictures/displacementpng.png>
+Package pdftex.def Info: ./Pictures/displacementpng.png  used on input line 346.
+(pdftex.def)             Requested size: 173.44493pt x 129.632pt.
+<./Pictures/velocity.jpg, id=62, 175.40532pt x 254.45062pt>
+File: ./Pictures/velocity.jpg Graphic file (type jpg)
+<use ./Pictures/velocity.jpg>
+Package pdftex.def Info: ./Pictures/velocity.jpg  used on input line 364.
+(pdftex.def)             Requested size: 140.32443pt x 203.56076pt.
+
+Underfull \hbox (badness 6412) in paragraph at lines 367--375
+[]\T1/ptm/m/n/12 (+20) the y-values strictly rep-re-sent the
+ []
+
+<./Pictures/acceleration.jpg, id=63, 171.64125pt x 307.90031pt>
+File: ./Pictures/acceleration.jpg Graphic file (type jpg)
+<use ./Pictures/acceleration.jpg>
+Package pdftex.def Info: ./Pictures/acceleration.jpg  used on input line 383.
+(pdftex.def)             Requested size: 120.14804pt x 215.52873pt.
+
+Underfull \hbox (badness 6157) in paragraph at lines 386--392
+[]\T1/ptm/m/n/12 (+20) When look-ing at acceleration-time
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7 <./Pictures/displacementpng.png> <./Pictures/velocity.jpg> <./Pictures/acceleration.JPG>]
+File: ./Pictures/displacementpng.png Graphic file (type png)
+<use ./Pictures/displacementpng.png>
+Package pdftex.def Info: ./Pictures/displacementpng.png  used on input line 405.
+(pdftex.def)             Requested size: 199.461pt x 149.07632pt.
+
+Overfull \hbox (8.69014pt too wide) in paragraph at lines 405--407
+[][]
+ []
+
+File: ./Pictures/velocity.jpg Graphic file (type jpg)
+<use ./Pictures/velocity.jpg>
+Package pdftex.def Info: ./Pictures/velocity.jpg  used on input line 419.
+(pdftex.def)             Requested size: 140.32443pt x 203.56076pt.
+File: ./Pictures/acceleration.jpg Graphic file (type jpg)
+<use ./Pictures/acceleration.jpg>
+Package pdftex.def Info: ./Pictures/acceleration.jpg  used on input line 433.
+(pdftex.def)             Requested size: 137.31316pt x 246.32057pt.
+
+Overfull \vbox (17.62733pt too high) has occurred while \output is active []
+
+ [8]
+File: ./Pictures/displacementpng.png Graphic file (type png)
+<use ./Pictures/displacementpng.png>
+Package pdftex.def Info: ./Pictures/displacementpng.png  used on input line 451.
+(pdftex.def)             Requested size: 199.461pt x 149.07632pt.
+
+Overfull \hbox (8.69014pt too wide) in paragraph at lines 451--453
+[][]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
 \tf@ptc=\write6
 \openout6 = `main.ptc'.
 
- [6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 274.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 274.
+ [10]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 474.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 474.
  (c:\Users\jbaut\Desktop\MCV4U2-journals\Application-of-Derivatives-P.1/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 274.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 274.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 474.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 474.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29107 strings out of 480994
- 542521 string characters out of 5916033
- 1333417 words of memory out of 5000000
- 43974 multiletter control sequences out of 15000+600000
- 615986 words of font info for 169 fonts, out of 8000000 for 9000
+ 29204 strings out of 480994
+ 543778 string characters out of 5916033
+ 1339417 words of memory out of 5000000
+ 43997 multiletter control sequences out of 15000+600000
+ 620063 words of font info for 202 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,12n,62p,1041b,2766s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,11n,62p,1041b,2766s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/avantgar/uagd8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/avantgar/uagk8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on c:\Users\jbaut\Desktop\MCV4U2-journals\Application-of-Derivatives-P.1/main.pdf (6 pages, 206883 bytes).
+Output written on c:\Users\jbaut\Desktop\MCV4U2-journals\Application-of-Derivatives-P.1/main.pdf (10 pages, 457346 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
- 89 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
- 36922 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 154 PDF objects out of 1000 (max. 8388607)
+ 120 compressed objects within 2 object streams
+ 32 named destinations out of 1000 (max. 500000)
+ 41038 words of extra memory for PDF output out of 42996 (max. 10000000)
 
