@@ -241,11 +241,92 @@ into the derivative: one lower (4) and one higher (8) than $\sqrt[3]{256}$.
 \noindent\small{The manager of a 100-unit apartment complex knows from experience that all units will be occupied if the rent is \$800 per month. A market survey suggests
     that, on average, one additional unit will remain vacant for each \$10 increase in rent. What rent should the manager charge to maximize revenue?}
 
-\section{Related Rates}\index{Optimization}
+\begin{center}
+    Revenue = units sold x price per unit \\
+    $R(x) = x \cdot p(x)$
+\end{center}
 
-\section{L'Hopital's Rule (AP)}\index{Optimization}
+\noindent We will need to find an expression for $p(x)$. Note that for every \$10 increase in price, there will be a 1 unit decrease. This is a contant/linear relationship: $-10$ slope.
 
-\section{Approximations (AP)}\index{Optimization}
+\begin{center}
+    $p(x) = -10x + b$
+\end{center}
+
+\noindent We are also given that the price of the units will be \$800 when all 100 units are being used.
+
+\begin{center}
+    $p(100)=800$
+\end{center}
+
+\noindent Bringing these two equations together we get:
+
+\begin{center}
+    $800=-10(100)+b$ \\
+    $800=-1000+b$ \\
+    $b=1800$ \\
+    $\therefore p(x)=-10x+1800$
+\end{center}
+
+\noindent We can then use $p(x)$ in our original equation:
+
+\begin{center}
+    $R(x) = x \cdot p(x)$ \\
+    $R(x)=x \cdot (-10x+1800)$ \\
+    $R(x)=-10x^2+1800x$ \\
+    $R'(x)=-20x+1800$
+\end{center}
+
+\noindent We can, as always, find the critical points by finding the x-values that make this equal to zero.
+
+\begin{center}
+    $0 =-20x+1800$ \\
+    $-1800=-20x$ \\
+    $x=90$ \\
+\end{center}
+
+\noindent To verify that this is the maximum, we need to plug in the endpoints of the domain as well (EVT): $0\leq x \leq 100$.
+
+\begin{multicols}{3}
+    \begin{center}
+        $R(0)=-10(0)^2+1800(0)$ \\
+        $R(0)=0$
+        \columnbreak
+
+        $R(90)=-10(90)^2+1800(90)$ \\
+        $R(90)=-81000+162000$ \\
+        $R(90)=81000$
+        \columnbreak
+
+        $R(100)=-10(100)^2+1800(100)$ \\
+        $R(100)=-100000+180000$ \\
+        $R(100)=80000$
+    \end{center}
+\end{multicols}
+
+\noindent The maximum revenue will be \$81000 when 90 units are sold, so to find price per unit we need to divide revenue by number of units.
+
+\begin{center}
+    Revenue = units sold $\cdot$ price per unit \\
+    Price per unit = revenue/units sold \\
+    $= \frac{81000}{90}$ \\
+    $=900$
+\end{center}
+
+\noindent $\therefore$ The manager should charge a \$900 rent per month to maximize revenue to a value of \$81000.
+
+\pagebreak
+
+\section{Related Rates}\index{Related Rates}
+
+For related rates...
+
+\vspace*{5mm}
+
+\noindent {\large \textbf{Example 1: Area of Circle}}
+
+\section{L'Hopital's Rule (AP)}\index{Related Rates}
+
+\section{Approximations (AP)}\index{Related Rates}
 
 
 \end{document}
