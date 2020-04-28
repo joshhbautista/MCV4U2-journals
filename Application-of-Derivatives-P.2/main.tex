@@ -74,15 +74,172 @@
 
 For optimization problems...
 
-\noindent {\large \textbf{Example}}
+\vspace*{5mm}
+
+\noindent {\large \textbf{Example 1: Area}}
 
 \noindent {\small Sarah has a new puppy and she wants to maximize her outdoor time, so she builds her a fenced-in play area. She has 40 feet of fencing,
     and she wants to fence off a rectangular area next to her house. The house will be one side of the play area, so that side needs no fencing. In order
     for the puppy to have adequate space, the area needs to be at least 5  feet long and 5 feet wide. What is the largest area she could have? Is there a
     smallest area she could have if she wants to use all 40 feet of fencing? }
 
-% https://www.youtube.com/watch?v=cUMvwG7wvzM&feature=youtu.be
+\vspace*{2.5mm}
 
+\begin{enumerate}
+    \item \large{\textbf{Find out what you are trying to optimize.}} \\
+          \normalsize{In this example, we are trying to maximize and minimize the area enclosed.}
+    \item \large{\textbf{Draw a sketch.}} \\
+          \begin{center}
+              \includegraphics[scale=0.25]{Example1Pic.JPG}
+          \end{center}
+    \item \large{\textbf{Write what you are trying to optimize as a function of the unknown variables idenitied in the picture.}} \\
+          \begin{center}
+              $A=lw$ \\
+          \end{center}
+          \normalsize{We cannot take the derivative of this function and find the max/min as we must first get the function in terms of only one variable. Let's go back to the question and see
+              what constraints are given. We are told that she has 40 feet of fencing, let's make an equation out of that.} \\
+          \begin{center}
+              $2w+l=40$ \\
+              $w=\frac{40-l}{2}$ \\
+          \end{center}
+          \normalsize{We have isolated $w$, now we can plug it back into the original function we made to make it in terms of only one variable.} \\
+          \begin{center}
+              $A=lw=(l)(\frac{40-l}{2})$ \\
+          \end{center}
+    \item \large{\textbf{Find the critical points.}} \\
+          \begin{center}
+              $A(l)=10l-\frac{1}{2}l^2$ \\
+              $A'(l)=10-l$ \\
+              $20-l=0$ \\
+              $l=20$ \\
+          \end{center}
+          \normalsize{We must make sure that this critical point is not an extraneous solution. We need to make sure this value for $l$ lies in the domain of $l$. We are told
+              the area must be at least 5 feet long and 5 feet wide. Plugging in $w=5$ in $2w+l=40$ gives us $l=30$}
+          \begin{center}
+              domain of $l: [5, 30]$
+          \end{center}
+          \normalsize{$l=20$ is within the domain. Now, we must see if this is a local max, local min, or neither. We can check max with the 2nd derivative test.}
+    \item \large{\textbf{2nd derivative test.}} \\
+          \begin{center}
+              $A''(l)=-1$ \\
+              $A''(20)=-1$
+          \end{center}
+          \normalsize{Since the function is concave down (negative 2nd derivative) at any point $l$, $l=20$ must be a local maximum.}
+    \item \large{\textbf{Find minimum using EVT (plug-in endpoints of domain).}} \\
+          \begin{multicols}{2}
+              \begin{center}
+                  At $l=5$: \\
+                  $A(5) = 20(5)-\frac{1}{2}(5)^2$ \\
+                  \textbf{$= 87.5 ft^2$}
+
+                  \columnbreak
+
+                  At $l=30$:
+                  $A(30) = 20(30)-\frac{1}{2}(30)^2$ \\
+                  $= 600-\frac{900}{2}$ \\
+                  $=150 ft^2$
+
+              \end{center}
+          \end{multicols}
+
+          \begin{multicols}{2}
+              \begin{center}
+                  $2w+5=40$ \\
+                  $2w=35$ \\
+                  $w=17.5$ \\
+
+                  \columnbreak
+                  $2w+20=40$ \\
+                  $2w=20$ \\
+                  $w=10$
+
+              \end{center}
+          \end{multicols}
+
+\end{enumerate}
+\normalsize{$\therefore$ Maximum enclosed area at $l=20$ feet long and $w=10$ feet wide. Minimum enclosed area at $l=5$ feet long and $w=17.5$ feet wide.}
+
+\vspace*{5mm}
+
+\noindent {\large \textbf{Example 2: Distance}}
+
+\noindent {\small A fence 8ft tall runs parellel to a tall building at a distance of 4ft from the building. What is the length of the shortest ladder
+    that will reach from the ground over the fence to the wall of the building?}
+
+\begin{center}
+    \includegraphics[scale=0.4]{Example2Pic.JPG}
+\end{center}
+
+\noindent Once we draw/sketch the problem out, we must create an equation that will relate all of the variables. Note that we are minimizing $z$ (shortest ladder).
+We have a right angled triangle, so we can use the \textbf{pythagorean theorem}.
+
+\begin{center}
+    $z^2=y^2+(4+x)^2$
+\end{center}
+
+\noindent This equation does not help as of right now as it contains two variables, we need it in terms of one variable. Let's use what else we are given - the smaller triangle. \\
+
+\begin{center}
+    \includegraphics[scale=0.5]{Example2Pic2.JPG}
+\end{center}
+
+\noindent These two triangles are \textbf{similar}, so we can use proportions to help us solve for y in terms of x.
+
+\begin{center}
+    \large{$\frac{y}{8}=\frac{4+x}{x}$ \\
+    $yx = 8(4+x)$ \\
+    $y=[\frac{8(4+x)}{x}]$}
+\end{center}
+
+\noindent Now, we can use this equation in the original equation we found at the start to get it in terms of one variable. It is very important to note
+that if \textbf{z is minimized, $z^2$ is also minimized}. This is important because instead of isolating for $z^2$ and getting a square root on the other
+side (which will be annoying to take the derivative of), we can simply take the derivative of $z^2$ and find the critical points.
+
+\begin{center}
+    \large{$z^2=(\frac{8(4+x)}{x})^2+(4+x)^2$ \\
+        $(z^2)'=2(\frac{8(4+x)}{x})(\frac{-32}{x^2})+2(4+x)$ \\
+        $0=2(\frac{8(4+x)}{x})(\frac{-32}{x^2})+2(4+x)$ \\
+        $-2(4+x)=2(\frac{8(4+x)}{x})(\frac{-32}{x^2})$ \\
+        $2=2(\frac{8(4+x)}{x})(\frac{32}{x^2})$ \\
+        $4+x=(\frac{8(4+x)}{x})(\frac{32}{x^2})$ \\
+        $1=(\frac{8}{x})(\frac{32}{x^2})$ \\
+        $1=(\frac{256}{x^3})$ \\
+        $x=\sqrt[3]{256}$}
+\end{center}
+
+\noindent \textbf{DOMAIN CHECK TODO}We need to make sure that this critical point is actually the minimum value. Let's do the 1st derivative test - plug in two numbers
+into the derivative: one lower (4) and one higher (8) than $\sqrt[3]{256}$.
+
+\begin{multicols}{2}
+    \begin{center}
+        \underline{$x=4$} \\
+        $=2(\frac{8(6)}{4})(\frac{-32}{16})+2(8)$ \\
+        $=$ negative
+
+        \columnbreak
+        \underline{$x=8$}\\
+        $=2(\frac{8(12)}{8})(\frac{-32}{64})+2(12)$ \\
+        $=$ positive
+    \end{center}
+\end{multicols}
+
+\noindent By drawing what we found from the 1st derivative test, we can assume that at $x=\sqrt[3]{256}$, it is a minimum. Now let's find out the $y$ value.
+
+\begin{center}
+    $z^2=(\frac{8((\sqrt[3]{256})+4)}{\sqrt[3]{256}})^2+((\sqrt[3]{256})+4)^2$ \\
+    $z^2=277.15$ \\
+    $z=\sqrt{277.15}$ \\
+    $z=16.65$
+\end{center}
+
+\noindent $\therefore$ The length of the shortest ladder that will reach will be $16.65$ft long.
+
+\vspace*{5mm}
+
+\noindent {\large \textbf{Example 3: Revenue}}
+
+\noindent\small{The manager of a 100-unit apartment complex knows from experience that all units will be occupied if the rent is \$800 per month. A market survey suggests
+    that, on average, one additional unit will remain vacant for each \$10 increase in rent. What rent should the manager charge to maximize revenue?}
 
 \section{Related Rates}\index{Optimization}
 
