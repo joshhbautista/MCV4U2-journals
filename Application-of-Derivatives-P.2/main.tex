@@ -196,15 +196,15 @@ that if \textbf{z is minimized, $z^2$ is also minimized}. This is important beca
 side (which will be annoying to take the derivative of), we can simply take the derivative of $z^2$ and find the critical points.
 
 \begin{center}
-    \large{$z^2=(\frac{8(4+x)}{x})^2+(4+x)^2$ \\
-        $(z^2)'=2(\frac{8(4+x)}{x})(\frac{-32}{x^2})+2(4+x)$ \\
-        $0=2(\frac{8(4+x)}{x})(\frac{-32}{x^2})+2(4+x)$ \\
-        $-2(4+x)=2(\frac{8(4+x)}{x})(\frac{-32}{x^2})$ \\
-        $2=2(\frac{8(4+x)}{x})(\frac{32}{x^2})$ \\
-        $4+x=(\frac{8(4+x)}{x})(\frac{32}{x^2})$ \\
-        $1=(\frac{8}{x})(\frac{32}{x^2})$ \\
-        $1=(\frac{256}{x^3})$ \\
-        $x=\sqrt[3]{256}$}
+    $z^2=(\frac{8(4+x)}{x})^2+(4+x)^2$ \\
+    $(z^2)'=2(\frac{8(4+x)}{x})(\frac{-32}{x^2})+2(4+x)$ \\
+    $0=2(\frac{8(4+x)}{x})(\frac{-32}{x^2})+2(4+x)$ \\
+    $-2(4+x)=2(\frac{8(4+x)}{x})(\frac{-32}{x^2})$ \\
+    $2=2(\frac{8(4+x)}{x})(\frac{32}{x^2})$ \\
+    $4+x=(\frac{8(4+x)}{x})(\frac{32}{x^2})$ \\
+    $1=(\frac{8}{x})(\frac{32}{x^2})$ \\
+    $1=(\frac{256}{x^3})$ \\
+    $x=\sqrt[3]{256}$
 \end{center}
 
 \noindent \textbf{DOMAIN CHECK TODO}We need to make sure that this critical point is actually the minimum value. Let's do the 1st derivative test - plug in two numbers
@@ -289,17 +289,17 @@ into the derivative: one lower (4) and one higher (8) than $\sqrt[3]{256}$.
 \begin{multicols}{3}
     \begin{center}
         $R(0)=-10(0)^2+1800(0)$ \\
-        $R(0)=0$
+        $R(0)=\$0$
         \columnbreak
 
         $R(90)=-10(90)^2+1800(90)$ \\
         $R(90)=-81000+162000$ \\
-        $R(90)=81000$
+        $R(90)=\$81000$
         \columnbreak
 
         $R(100)=-10(100)^2+1800(100)$ \\
         $R(100)=-100000+180000$ \\
-        $R(100)=80000$
+        $R(100)=\$80000$
     \end{center}
 \end{multicols}
 
@@ -462,12 +462,90 @@ getting shorter, hence why $\frac{dA}{dt}$ and $\frac{dB}{dt}$ are negative. Let
 
 \noindent $\therefore$ The cars the approaching each other at a rate of 78 $\frac{mi}{h}$.
 
-\vspace*{5mm}
+\pagebreak
 
 \noindent {\large \textbf{Example 3: Volume of Cone}}
-\noindent {\small }
+
+\noindent {\small A water tank has the shape of an inverted (meaning up-side down) circular cone with base radius 2m and height 4m.
+    If water is being pumped into the tank  at a rate of $2m^3/min$, find the rate at which the water level is rising when the water is 3m deep.}
+
+\begin{center}
+    \includegraphics[scale=0.45]{Example5Pic.jpg}
+\end{center}
+
+\noindent In the diagram, whatever is changing as time passes by is indicated in red (the height - $h$ and radius - $r$). We are given a rate: 'water is being pumped into the tank at a rate of 2
+$\frac{m^3}{min}$. This is our $\frac{dV}{dt}$ as it is the rate of which the volume is changing as time passes by. We want to find 'the rate at which the water level is rising', which is
+$\frac{dh}{dt}$; the rate at which the height is changing as time passes by.
+
+\begin{multicols}{2}
+    \begin{center}
+        \underline{given:} \\
+        $\frac{dV}{dt}=2\frac{m^3}{min}$
+
+        \columnbreak
+        \underline{want:} \\
+        \vspace*{1mm}
+        $\frac{dA}{dt}=?$ \\
+        \vspace*{1mm}
+        {\small A.T.I when h = 3m}
+    \end{center}
+\end{multicols}
+
+\noindent Like the previous examples on related rates, we need to find an equation that can relate all of the variables together (V, r, h). We can use the volume of a cone formula: $V=\frac{1}{3} \pi r^2h$.
+Like before, we need this in terms of only one variable. In the diagram there are two \emph{similar} triangles that can be used to set up a \textbf{proportion} - this is why it is important to draw a diagram.
+
+\begin{center}
+    \includegraphics[scale=0.4]{Example5Pic2.jpg} \\
+    \vspace*{2mm}
+    $\frac{2}{4}=\frac{r}{h}$ \\
+    \vspace*{1mm}
+    $\frac{1}{2}=\frac{r}{h}$ \\
+    \vspace*{1mm}
+    $r=\frac{1}{2}h$
+\end{center}
+
+\pagebreak
+
+\noindent We can use this in the formula to get it in terms of one variable. After that, we can take the derivative of both sides, plug in what we are given, and solve for $\frac{dh}{dt}$.
+
+\begin{center}
+    $V_{cone}=\frac{1}{3} \pi r^2 h$ \\
+    \vspace*{2mm}
+    $V=\frac{1}{3} \pi (\frac{1}{2}h)^2 h$ \\
+    \vspace*{2mm}
+    $V=\frac{1}{3} \pi \frac{1}{4}h^2h$\\
+    \vspace*{2mm}
+    $\frac{d}{dt}(V=\frac{1}{12} \pi h^3)$ \\
+    \vspace*{2mm}
+    $\frac{dV}{dt}=\frac{3}{12} \pi h^2 \frac{dh}{dt}$ \\
+    \vspace*{2mm}
+    $2=\frac{1}{4} \pi (3)^2 \frac{dh}{dt}$ \\
+    \vspace*{2mm}
+    $2=\frac{9 \pi}{4} \frac{dh}{dt}$ \\
+    \vspace*{2mm}
+    $\frac{dh}{dt}=\frac{8}{9 \pi} \frac{m}{min}$
+\end{center}
+
+\noindent $\therefore$ The water level is rising at a rate of $\frac{8}{9 \pi} \frac{m}{min}$ when the water is 3m deep.
 
 \section{L'Hopital's Rule (AP)}\index{Related Rates}
+
+\includegraphics[scale=0.5]{LHopital.JPG}
+
+\noindent L'Hopital's rule provides us a technique to \textbf{calculate the limit of indeterminate forms.} ($\frac{\infty}{\infty}$, $\frac{0}{0}$) When you have an indeterminate form, you can simply take the limit
+of the derivative of the numerator divided by the derivative of the denominator. We can use L'Hopital's rule on the following forms:
+
+\begin{multicols}{2}
+    \begin{center}
+        {\large$\frac{\infty}{\infty}$
+
+            $\frac{0}{0}$}
+    \end{center}
+\end{multicols}
+
+\noindent If you have other indeterminate forms, you can manipulate it to a form where you \emph{can} apply L'Hopital's rule.
+
+
 
 \section{Approximations (AP)}\index{Related Rates}
 
