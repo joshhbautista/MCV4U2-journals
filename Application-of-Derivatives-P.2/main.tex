@@ -78,54 +78,54 @@ For optimization problems...
 
 \noindent {\large \textbf{Example 1: Area}}
 
-\noindent {\small Sarah has a new puppy and she wants to maximize her outdoor time, so she builds her a fenced-in play area. She has 40 feet of fencing,
-    and she wants to fence off a rectangular area next to her house. The house will be one side of the play area, so that side needs no fencing. In order
-    for the puppy to have adequate space, the area needs to be at least 5  feet long and 5 feet wide. What is the largest area she could have? Is there a
-    smallest area she could have if she wants to use all 40 feet of fencing? }
+\noindent \small Sarah has a new puppy and she wants to maximize her outdoor time, so she builds her a fenced-in play area. She has 40 feet of fencing,
+and she wants to fence off a rectangular area next to her house. The house will be one side of the play area, so that side needs no fencing. In order
+for the puppy to have adequate space, the area needs to be at least 5  feet long and 5 feet wide. What is the largest area she could have? Is there a
+smallest area she could have if she wants to use all 40 feet of fencing?
 
 \vspace*{2.5mm}
 
 \begin{enumerate}
-    \item \large{\textbf{Find out what you are trying to optimize.}} \\
-          \normalsize{In this example, we are trying to maximize and minimize the area enclosed.}
-    \item \large{\textbf{Draw a sketch.}} \\
+    \item {\normalsize \textbf{Find out what you are trying to optimize.}} \\
+          {\small In this example, we are trying to maximize and minimize the area enclosed.}
+    \item {\normalsize\textbf{Draw a sketch.}}
           \begin{center}
               \includegraphics[scale=0.25]{Example1Pic.JPG}
           \end{center}
-    \item \large{\textbf{Write what you are trying to optimize as a function of the unknown variables idenitied in the picture.}} \\
+    \item {\normalsize\textbf{Write what you are trying to optimize as a function of the unknown variables idenitied in the picture.}}
           \begin{center}
               $A=lw$ \\
           \end{center}
-          \normalsize{We cannot take the derivative of this function and find the max/min as we must first get the function in terms of only one variable. Let's go back to the question and see
-              what constraints are given. We are told that she has 40 feet of fencing, let's make an equation out of that.} \\
+          {\small We cannot take the derivative of this function and find the max/min as we must first get the function in terms of only one variable. Let's go back to the question and see
+          what constraints are given. We are told that she has 40 feet of fencing, let's make an equation out of that.}
           \begin{center}
               $2w+l=40$ \\
               $w=\frac{40-l}{2}$ \\
           \end{center}
-          \normalsize{We have isolated $w$, now we can plug it back into the original function we made to make it in terms of only one variable.} \\
+          {\small We have isolated $w$, now we can plug it back into the original function we made to make it in terms of only one variable.}
           \begin{center}
               $A=lw=(l)(\frac{40-l}{2})$ \\
           \end{center}
-    \item \large{\textbf{Find the critical points.}} \\
+    \item {\normalsize\textbf{Find the critical points.}}
           \begin{center}
               $A(l)=10l-\frac{1}{2}l^2$ \\
               $A'(l)=10-l$ \\
               $20-l=0$ \\
               $l=20$ \\
           \end{center}
-          \normalsize{We must make sure that this critical point is not an extraneous solution. We need to make sure this value for $l$ lies in the domain of $l$. We are told
-              the area must be at least 5 feet long and 5 feet wide. Plugging in $w=5$ in $2w+l=40$ gives us $l=30$}
+          {\small We must make sure that this critical point is not an extraneous solution. We need to make sure this value for $l$ lies in the domain of $l$. We are told
+          the area must be at least 5 feet long and 5 feet wide. Plugging in $w=5$ in $2w+l=40$ gives us $l=30$}
           \begin{center}
               domain of $l: [5, 30]$
           \end{center}
-          \normalsize{$l=20$ is within the domain. Now, we must see if this is a local max, local min, or neither. We can check max with the 2nd derivative test.}
-    \item \large{\textbf{2nd derivative test.}} \\
+          {\small $l=20$ is within the domain. Now, we must see if this is a local max, local min, or neither. We can check max with the 2nd derivative test.} \\
+    \item {\normalsize\textbf{2nd derivative test.}}
           \begin{center}
               $A''(l)=-1$ \\
               $A''(20)=-1$
           \end{center}
-          \normalsize{Since the function is concave down (negative 2nd derivative) at any point $l$, $l=20$ must be a local maximum.}
-    \item \large{\textbf{Find minimum using EVT (plug-in endpoints of domain).}} \\
+          {\small Since the function is concave down (negative 2nd derivative) at any point $l$, $l=20$ must be a local maximum.} \\
+    \item {\normalsize\textbf{Find minimum using EVT (plug-in endpoints of domain).}}
           \begin{multicols}{2}
               \begin{center}
                   At $l=5$: \\
@@ -157,9 +157,9 @@ For optimization problems...
           \end{multicols}
 
 \end{enumerate}
-\normalsize{$\therefore$ Maximum enclosed area at $l=20$ feet long and $w=10$ feet wide. Minimum enclosed area at $l=5$ feet long and $w=17.5$ feet wide.}
+{\small $\therefore$ Maximum enclosed area at $l=20$ feet long and $w=10$ feet wide. Minimum enclosed area at $l=5$ feet long and $w=17.5$ feet wide.}
 
-\vspace*{5mm}
+\pagebreak
 
 \noindent {\large \textbf{Example 2: Distance}}
 
@@ -177,7 +177,7 @@ We have a right angled triangle, so we can use the \textbf{pythagorean theorem}.
     $z^2=y^2+(4+x)^2$
 \end{center}
 
-\noindent This equation does not help as of right now as it contains two variables, we need it in terms of one variable. Let's use what else we are given - the smaller triangle. \\
+\noindent This equation does not help as of right now as it contains two variables, we need it in terms of one variable. Let's use what else we are given - the smaller triangle.
 
 \begin{center}
     \includegraphics[scale=0.5]{Example2Pic2.JPG}
@@ -312,9 +312,7 @@ into the derivative: one lower (4) and one higher (8) than $\sqrt[3]{256}$.
     $=900$
 \end{center}
 
-\noindent $\therefore$ The manager should charge a \$900 rent per month to maximize revenue to a value of \$81000.
-
-\pagebreak
+\noindent $\therefore$ The manager should charge a \textbf{\$900} rent per month to maximize revenue to a value of \$81000.
 
 \section{Related Rates}\index{Related Rates}
 
@@ -323,6 +321,151 @@ For related rates...
 \vspace*{5mm}
 
 \noindent {\large \textbf{Example 1: Area of Circle}}
+
+\noindent When a circular metal plate is heated in an over, its radius increases at the rate of 0.02 cm/min. At what rate is the plate's area increasing
+when the radius is 60cm?
+
+\vspace*{2mm}
+
+\noindent As always, let's first draw/sketch it out so we can have an easier time understanding the problem and what it is asking for: what rate the plate's area
+is increasing \textbf{at the instant} (A.T.I) the radius is 60cm.
+
+\begin{center}
+    \includegraphics[scale=0.4]{Example3Pic.jpg}
+\end{center}
+
+\noindent Notice in the question it says that the radius \textbf{increases at a rate of 0.02 cm/min}. This basically gives us the derivative; whenever you see
+'rate', it refers to the derivative. We are also given the radius.
+
+\begin{center}
+    \underline{given:}
+    \begin{multicols}{2}
+        $\frac{dr}{dt}=0.02 \frac{cm}{min}$
+
+        $r=60cm$
+    \end{multicols}
+\end{center}
+
+\noindent The question asks us \textbf{what rate is the plate's area increasing} when the radius is 60cm? Again, it is asking for the 'rate', so they are asking
+for the derivative:
+
+\begin{center}
+    \underline{want:} \\
+    \vspace*{1mm}
+    $\frac{dA}{dt}=?$ \\
+    \vspace*{1mm}
+    A.T.I when r = 60 cm
+\end{center}
+
+\noindent Next, we need to find an equation that relates the area and the radius. Since we are working with circles, we already know this formula.
+
+\begin{center}
+    $A=\pi r^2$
+\end{center}
+
+\noindent Since we want $\frac{dA}{dt}$, we can simply take the derivative of this formula with respect to $t$ and after, plug in what we are given. \textbf{NOTE:} in the last line, remember that
+we are taking the derivative with respect to $t$, so we cannot simply use the power rule.
+
+\begin{center}
+    $\frac{d}{dt}(A=\pi r^2)$ \\
+    \vspace*{1mm}
+    $\frac{dA}{dt}=2 \pi r \frac{dr}{dt}$ \\
+    \vspace*{1mm}
+    $\frac{dA}{dt}=2 \pi (60cm)(0.02\frac{cm}{min})$ \\
+    \vspace*{1mm}
+    $\frac{dA}{dt}=2.4 \pi \frac{cm^2}{min}$ \\
+\end{center}
+
+\noindent $\therefore$ At the instant when the radius is 60cm, the rate of which the plate's area is increasing by is $2.4 \pi \frac{cm^2}{min}$.
+
+\noindent {\large \textbf{Example 2: Pythagorean}}
+
+\noindent\small{Car A is travelling west at 50 mi/h and Car B is travelling north at 60 mi/h. Both are headed for the intersection of the two roads. At what rate are
+    the cars approaching each other when Car A is 0.3 mi and Car B is 0.4 mi from the intersection?}
+
+\vspace*{2mm}
+
+\noindent Let's start by drawing a diagram to have a better understanding of what's happening. We will indicate the parts that are changing with red arrows and
+label all the information given at the instant (A.T.I) the question is asking for.
+
+\begin{center}
+    \includegraphics[scale=0.5]{Example4Pic.jpg}
+\end{center}
+
+\noindent Reading the question again it tells us the rate of which the cars are travelling with respect to time. \textbf{NOTE:} the length of A and B are actually
+decreasing, so the derivative should be negative as the distance is getting shorter - easy to see from the diagram.
+
+\pagebreak
+
+\begin{center}
+    \underline{given:}
+    \begin{multicols}{4}
+        $\frac{dA}{dt}=-50 \frac{mi}{h}$
+
+        $\frac{dB}{dt}=-60 \frac{mi}{h}$
+
+        $A=0.3mi$
+
+        $B=0.4mi$
+    \end{multicols}
+\end{center}
+
+\noindent The question also asks, 'at what rate are the cars approaching each other?':
+
+\begin{center}
+    \underline{want:} \\
+    $\frac{dc}{dt}=?$
+\end{center}
+
+\noindent Now, we need an equation that relates A, B, and C. Since we are working with triangles, it should be easy to notice that we can use \text{pythagorean's theorem}.
+Everything that we are given and need ($\frac{dA}{dt}$, $\frac{dB}{dt}$, etc) are the derivatives of these variables with respect to time. So let's take the derivative of both sides.
+
+\begin{center}
+    $A^2+B^2=C^2$ \\
+    \vspace*{1mm}
+    $\frac{d}{dt}(A^2+B^2=C^2)$ \\
+    \vspace*{1mm}
+    $2A\frac{dA}{dt}+2B\frac{dB}{dt}=2C\frac{dC}{dt}$
+\end{center}
+
+\noindent To reiterate, it is very important to double-check if the rates are positive or negative. If Car A was going in the opposite direction, the rate would be
+positive as the length/distance of A would be increasing. In this case, both Car A and Car B are going towards the intersection; the length/distance of A and B are
+getting shorter, hence why $\frac{dA}{dt}$ and $\frac{dB}{dt}$ are negative. Let's plug in what we know now.
+
+\begin{center}
+    $2(0.3mi)(-50\frac{mi}{h})+2(0.4\frac{mi}{h})(-60mi)=2C\frac{dC}{dt}$ \\
+\end{center}
+
+\noindent You should notice that we do not have the value of C yet. Here we can use the equation we got from pythagorean's theorem.
+
+\begin{center}
+    $A^2+B^2=C^2$ \\
+    \vspace*{1mm}
+    $(0.3mi)^2+(0.4mi)^2=C^2$ \\
+    \vspace*{1mm}
+    $0.25mi^2=C^2$ \\
+    \vspace*{1mm}
+    $C=0.5mi$
+\end{center}
+
+\noindent We can continue where we left off and plug in this C value.
+
+\begin{center}
+    $2(0.3mi)(-50\frac{mi}{h})+2(0.4mi)(-60\frac{mi}{h})=2(0.5mi)\frac{dC}{dt}$ \\
+    \vspace*{1mm}
+    $(0.6mi)(-50\frac{mi}{h})+(0.8mi)(-60\frac{mi}{h})=(1mi)\frac{dC}{dt}$ \\
+    \vspace*{1mm}
+    $-78\frac{mi^2}{h}=(mi)\frac{dC}{dt}$ \\
+    \vspace*{1mm}
+    $-78\frac{mi}{h}=\frac{dC}{dt}$
+\end{center}
+
+\noindent $\therefore$ The cars the approaching each other at a rate of 78 $\frac{mi}{h}$.
+
+\vspace*{5mm}
+
+\noindent {\large \textbf{Example 3: Volume of Cone}}
+\noindent {\small }
 
 \section{L'Hopital's Rule (AP)}\index{Related Rates}
 
