@@ -543,11 +543,64 @@ of the derivative of the numerator divided by the derivative of the denominator.
     \end{center}
 \end{multicols}
 
-\noindent If you have other indeterminate forms, you can manipulate it to a form where you \emph{can} apply L'Hopital's rule.
+\noindent If you have other indeterminate forms, you can manipulate it to a form where you \emph{can} apply L'Hopital's rule. \\
 
+\noindent {\large \textbf{Example 1: Indeterminate Quotients}}
+\noindent {\large\[ \lim_{x \to \infty} \frac{x}{\ln{(1+2e^x)}} \]}
 
+\noindent If we substitute $\infty$ for $x$, we get an indeterminate form of $\frac{\infty}{\infty}$. Now that we know L'Hopital's rule, we can simply divide the derivative of the
+numerator by the derivative of the denominator to solve this. Notice we label L'H above the equal sign to signify we are using L'Hopital's rule.
+
+    {\large\[ \stackrel{\text{L'H}}{=} \lim_{x \to \infty} \frac{1}{\frac{1}{(1+2e^x)}(2e^x)}\]
+        \[ = \lim_{x \to \infty} \frac{1+2e^x}{2e^x} = \frac{\infty}{\infty}\]}
+
+\noindent After applying L'Hopital's rule,it still turns out to be an indeterminate form of $\frac{\infty}{\infty}$, but we can apply L'Hopital's rule \textbf{as many times as we want}, as long
+as it is applicable.
+
+    {\large\[ \stackrel{\text{L'H}}{=} \lim_{x \to \infty} \frac{2e^x}{2e^x} = 1\]}
+
+\noindent {\large \textbf{Example 2: Indeterminate Products}}
+
+\noindent The indeterminate form $0 \cdot \pm \infty$ is a form that we can manipulate into an indeterminate quotient/fraction, and then apply L'Hopital's rule.
+    {\large\[ \lim_{x \to 0^+} \sqrt{x} \cdot \ln{x} \]}
+
+\noindent Like always, we try to substitute the x-value we are approaching into the equation first. This time, it actually gives us an indeterminate form of $(0 \cdot -\infty)$.
+In order to manipulate this into an indeterminate quotient, we'll need to bring one of the terms into the denominator. We need to make sure we are not changing the overall expression.
+Note that the following step is equivalent to the one before (negative power in denom.) We can then apply L'Hopital's rule; we have an indeterminate form of $\frac{0}{0}$.
+{\large\[ = \lim_{x \to 0^+} \frac{\ln{x}}{x^\frac{-1}{2}} \]
+\[ \stackrel{\text{L'H}}{=} \lim_{x \to 0^+} \frac{\frac{1}{x}}{\frac{-1}{2}x^\frac{-3}{2}} = -2 \lim_{x \to 0^+} \frac{x^\frac{3}{2}}{x} = \lim_{x \to 0^+} -2 \sqrt{x} = -2 \sqrt{0} = 0\]
+
+\noindent {\large \textbf{Example 3: Indeterminate Differences}}
+
+\noindent {\small The indeterminate form $\pm \infty \pm \infty$ is an indeterminate difference form. With these forms, we will try to manipulate it to one of the previous forms to solve it.}
+{\large\[ \lim_{x \to 1} \frac{1}{\ln{x}} - \frac{1}{x-1} \]}
+
+\noindent {\small Plugging in $x=1$ will give us ($\infty - \infty$). Since we have two fractions, we want to manipulate it so it is one (Indeterminate Quotient).
+    Our first step will be to get common denominators, then apply L'Hopital's rule wherever applicable. \textbf{NOTE:} always try to simplify after applying L'Hopital's rule to make it cleaner.}
+
+{\large\[ = \lim_{x \to 1} \frac{x-1- \ln{x}}{(\ln{x})(x-1)} \]}
+{\large\[ \stackrel{\text{L'H}}{=} \lim_{x \to 1} \frac{1 - \frac{1}{x}}{\frac{1}{x}(x-1)+\ln{x}} \cdot \frac{x}{x} \]}
+{\large \[ = \lim_{x \to 1} \frac{x-1}{x-1+x\ln{x}} \]}
+{\large\[ \stackrel{\text{L'H}}{=} \lim_{x \to 1} \frac{1}{1+1 \cdot \ln{x} + x\frac{1}{x}} \]}
+{\large \[ = \frac{1}{1+0+1 \cdot \frac{1}{1}} = \frac{1}{2}\]}
+
+\noindent {\large \textbf{Example 4: Indeterminate Powers}}
+
+\noindent {\small $\infty^0$, $0^0$, and $1^\infty$ are all examples of an indeterminate power. With the case of indeterminate powers, we will be carefully
+manipulating the expression with $e^{\ln{x}}$. Note that this \textbf{cancels out to x / is equal to x}.}
+{\large\[ \lim_{x \to \infty} x^\frac{1}{x} \]}
+{\large \[ =\lim_{x \to \infty} (e^{\ln{x}})^{\frac{1}{x}}\]}
+{\large \[ =\lim_{x \to \infty} e^{\frac{\ln{x}}{x}}\]}
+\noindent {\small Since $e^x$ is continuous, we can bring the limit in.}
+{\large \[ =e^{\lim_{x \to \infty} \frac{\ln{x}}{x}}\]}
+\noindent {\small Now we apply L'Hopital's rule since it is applicable.}
+{\large \[ \stackrel{\text{L'H}}{=} e^{\lim_{x \to \infty} \frac{(\frac{1}{x})}{1}} \]}
+\noindent {\small The limit in the power is 0: $ \lim_{x \to \infty} (x^{\frac{1}{x}}) = 1$}
+{\large \[=e^0 = 1\]}
 
 \section{Approximations (AP)}\index{Related Rates}
-
+\includegraphics[scale=0.8]{Approx.jpg} \\
+\noindent {\small \textbf{Linear approximation} is a process that is used to find a good estimate about the value of a function we \textbf{don't know},
+    by using information about a value of a function we \textbf{already know}.}
 
 \end{document}
