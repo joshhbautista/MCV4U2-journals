@@ -64,7 +64,7 @@
 %	CHAPTER 1
 %----------------------------------------------------------------------------------------
 
-\chapterimage{placeholder.JPG} % Chapter heading image
+\chapterimage{Example4Pic.jpg} % Chapter heading image
 
 \pagebreak
 
@@ -598,9 +598,26 @@ manipulating the expression with $e^{\ln{x}}$. Note that this \textbf{cancels ou
 \noindent {\small The limit in the power is 0: $ \lim_{x \to \infty} (x^{\frac{1}{x}}) = 1$}
 {\large \[=e^0 = 1\]}
 
-\section{Approximations (AP)}\index{Related Rates}
+\section{Approximations (AP)}\index{Approximations}
+\noindent {\large \textbf{Linearization}} \\
+
 \includegraphics[scale=0.8]{Approx.jpg} \\
 \noindent {\small \textbf{Linear approximation} is a process that is used to find a good estimate about the value of a function we \textbf{don't know},
-    by using information about a value of a function we \textbf{already know}.}
+    by using information about a value of a function we \textbf{already know}. Basically, you find the tangent line of a point you \textbf{do know} that is
+    close to the point you are trying to estimate - by using the point-slope formula and finding the slope/derivative at that point. Then, you plug in the x-value
+    you are trying to find in the tangent line and solve for its y-value. Since the tangent line should be relatively close to the point you are trying to estimate,
+    the y-value should be relatively close as well.}
 
+\vspace*{4mm}
+
+\noindent {\large \textbf{Differentials}}\\
+
+\includegraphics{Differentials.png} \\
+\noindent {\small For differentials, we utilize the fact that $f'(x)=\frac{dy}{dx}$. We isolate for $dy$ and get $dy=f'(x)dx$. This is saying that the change in
+    y is equivalent to the slope/derivative at x, times the change in x.}
+
+\includegraphics[scale=0.7]{Differentials2.jpg}
+
+\noindent {\small This is helpful as when trying to estimate a number such as $\sqrt{16.4}$, we can 'split' it up into $\sqrt{16} +\sqrt{0.4}$. Then we can say that the change in y
+    (from $\sqrt{16}$ to $\sqrt{16.4}$) is the derivative at 16 $\cdot$ the change in x - which is 0.4, and add $\Delta y$ to $\sqrt{16}$. Note this is an \textbf{approximation}.}
 \end{document}
