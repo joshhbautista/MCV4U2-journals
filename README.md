@@ -13,8 +13,8 @@ All LaTeX math journals made in MCV4U2 (AP)
 ### Integration (AP)
 
 
-### Application of Integration P.1 (AP)
+### Application of Integration Part One (AP)
 
 
 
-### Application of Integration P.2 (AP)
+### Application of Integration Part Two (AP)
