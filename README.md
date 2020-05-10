@@ -9,12 +9,3 @@ All LaTeX math journals made in MCV4U2 (AP)
 
 ### Application of Derivatives Part Two
 <a href="https://github.com/kthisisjosh/MCV4U2-journals/blob/master/Application-of-Derivatives-P.2/ApplicationOfDerivP2.pdf">Application of Derivatives: Part Two</a>
-
-### Integration (AP)
-
-
-### Application of Integration Part One (AP)
-
-
-
-### Application of Integration Part Two (AP)
