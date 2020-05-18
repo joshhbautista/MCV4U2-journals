@@ -1,5 +1,9 @@
-# MCV4U2-journals
+<h1 align="center">
+MCV4U2 Journals
+</h1>
+<p align="center">
 All LaTeX math journals made in MCV4U2 (AP)
+</p>
 
 ### MHF4U2
 <a href="https://github.com/kthisisjosh/MCV4U2-journals/blob/master/MathDetailedSummary/MathDetailedSummary.pdf">Solving Rational and Irrational Inequalities - detailed summary</a>
